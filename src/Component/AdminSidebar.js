@@ -43,7 +43,7 @@ export default function AdminSidebar() {
 
     return (
         <div style={{background:'#F4F5F7',zIndex:'10',minHeight:'100vh',overflow:'hidden',position:'fixed'}}>
-            <div style={{margin:'70px 40px 0px 0px'}} >
+            <div style={{margin:'120px 40px 0px 0px'}} >
           
           
             <div>
@@ -60,7 +60,7 @@ export default function AdminSidebar() {
                   })}
                 
                   
-                  <div className="click" style={{marginTop:'6px'}} onClick={()=> console.log('')}>
+                  <div className="click" style={{marginTop:'20px'}} onClick={()=> console.log('')}>
                       <div className={[nav.id==11 ? "selectedNav" :"selectedNav2","ruby"].join(" ")}>
                       <span style={{borderRadius:'5px',background: "#8D0C18",opacity: "0.5",padding:'5px'}}> <img src={require('../Asset/images/help.svg').default}/></span>
                           <span className="text-nocolor space-left2 center" style={{paddingLeft:'5px'}}>Help</span>

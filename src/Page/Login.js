@@ -66,7 +66,7 @@ export default function Login() {
           </InputAdornment>
         )}}
         type="password" name="password" onChange={(data)=> setPassword(data.target.value) }
-        {...register("password",{ required: true,minLength:6})}     placeholder="Enter any password..." />
+        {...register("password",{ required: true,minLength:2})}     placeholder="Enter any password..." />
         
         {errors.password && errors.password.required  &&  <p className="error">Password is required</p>}
         {errors.password  && errors.password.minLength &&  <p className="error">Password is too short</p>}
