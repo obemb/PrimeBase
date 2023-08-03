@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/PrimeBase/static/css/main.7e32d3ef.css",
+    "main.js": "/PrimeBase/static/js/main.292694f1.js",
+    "static/media/loginImage.png": "/PrimeBase/static/media/loginImage.2169f8f835743e3311ae.png",
+    "static/media/logo.png": "/PrimeBase/static/media/logo.4aa2bccdb44eb07e3ba0.png",
+    "static/media/UV______.TTF": "/PrimeBase/static/media/UV______.b17d54c340622fb830a4.TTF",
+    "static/media/signout.svg": "/PrimeBase/static/media/signout.e0ec4b5c3b6c83562fe0a7902eb8c040.svg",
+    "static/media/password.svg": "/PrimeBase/static/media/password.cbd2e10f5897c6ba471b096f2373e001.svg",
+    "static/media/briefcase.svg": "/PrimeBase/static/media/briefcase.1692754dd60f2ec7190c.svg",
+    "index.html": "/PrimeBase/index.html",
+    "static/media/help.svg": "/PrimeBase/static/media/help.62c613a58571ef25876f9c46a8410346.svg",
+    "static/media/email.svg": "/PrimeBase/static/media/email.b7111c29664266732bf15d442b73aab7.svg",
+    "static/media/logout.svg": "/PrimeBase/static/media/logout.d0ce10faaa06dddfc4ab.svg",
+    "static/media/Log-out.svg": "/PrimeBase/static/media/Log-out.f6531b5618a3ec1ed90d09b69ee309f0.svg",
+    "main.7e32d3ef.css.map": "/PrimeBase/static/css/main.7e32d3ef.css.map",
+    "main.292694f1.js.map": "/PrimeBase/static/js/main.292694f1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7e32d3ef.css",
+    "static/js/main.292694f1.js"
+  ]
+}
