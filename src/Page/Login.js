@@ -282,7 +282,7 @@ export default function Login() {
                   <img src={require('../Asset/images/logo.png')} width="300px" />
                 </div>
                 <div style={{fontSize:'25px',lineHeight:'38px',marginBottom:'30px',marginTop:'0px',divor:'#03A861'}} className="bold text space-bottom space-top">
-                PrimeBase
+                Makolaa
                 </div>
                 
                 {loginNav==1 && showLogin()}
@@ -293,7 +293,7 @@ export default function Login() {
                 <div>
                 <div className="loginFooter center2">
                   <div className="padding-y">
-                    <div className="text center"> <span className="space-left text ">© {new Date().getFullYear()} PrimeBase Micro finance.<br/> All Rights Reserved.</span></div>
+                    <div className="text center"> <span className="space-left text ">© {new Date().getFullYear()} Makolaa Micro finance.<br/> All Rights Reserved.</span></div>
                     <div onClick={()=>setShowPrivacy(true)}>
                       <span className="text center2 space-top blue click">Privacy Policy</span>
                     </div>

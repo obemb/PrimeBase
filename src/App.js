@@ -21,15 +21,13 @@ function App() {
   let location = useLocation();
 
   useEffect(() => {
-    if(location.pathname!="/login"){
-      dispatch({type:CONSTANT.get_all_loan_request})
-    }
+   
   }, []);
 
   const theme = createTheme({
     palette: {
       primary: {
-        main: '#8D0C18',
+        main: '#0000ff',
       },
     },
     typography: {
@@ -64,6 +62,7 @@ function App() {
       case CONSTANT.get_all_loan_request:
       case CONSTANT.get_repayment_schedule:
       case CONSTANT.request_for_loan:
+      case CONSTANT.subscribe:
         return simplePostRequest(action.type,action.payload,action.reset,action.reset2,action.reset3,action.reset4);
       case CONSTANT.token:
         const d={
@@ -133,6 +132,9 @@ function App() {
         toastr.remove()
         login(result.data)
         break;
+      case CONSTANT.subscribe:
+          toastr.success(result.data.status)
+          break;
       case CONSTANT.forgotPassword:
         toastr.success(result.data.status)
         setLoginNav(3)

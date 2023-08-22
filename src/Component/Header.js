@@ -38,7 +38,7 @@ export default function Header() {
                       <div className="click" onClick={()=> dispatch({type:CONSTANT.navigate,payload: 1}) }>
                           <img   src={require('../Asset/images/logo.png')} width={120}/>
                       </div>
-                      <span className="white  lg center2" style={{padding:'10px 105px 0px 10px'}}>PrimeBase Micro Finance</span> 
+                      <span className="white  lg center2" style={{padding:'10px 105px 0px 10px'}}>Makolaa Micro Finance</span> 
 
                       <div className='ruby center2'>
 

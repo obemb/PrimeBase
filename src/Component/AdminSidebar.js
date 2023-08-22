@@ -73,7 +73,7 @@ export default function AdminSidebar() {
                     <span style={{borderRadius:'5px',background: "#8D0C18",opacity: "0.5",padding:'5px'}}> <img src={require('../Asset/images/Log-out.svg').default} /></span>
                         <span className="text  space-left2 center">Sign Out</span>
                     </div> 
-                    <span className="space-left text ">© {new Date().getFullYear()} PrimeBase Micro Finance Lending Company.<br/> All Rights Reserved.</span>
+                    <span className="space-left text ">© {new Date().getFullYear()} Makolaa Micro Finance Lending Company.<br/> All Rights Reserved.</span>
                 
                 </div>
 

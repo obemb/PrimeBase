@@ -113,7 +113,7 @@ export default function Retires() {
       localStorage.setItem("Id",d.TRANSACTION_ID)
       history('/repaymentSchedule')
      
-    }
+  }
     return (
       <div>
         <Paper>

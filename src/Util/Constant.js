@@ -15,5 +15,6 @@ export const CONSTANT = {
     get_all_loan_request:'',
     get_repayment_schedule:'',
     request_for_loan:'',
+    subscribe:'subscribe',
     
 }
